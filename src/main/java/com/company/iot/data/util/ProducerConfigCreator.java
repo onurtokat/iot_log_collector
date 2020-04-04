@@ -6,6 +6,10 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 import java.util.UUID;
 
+/**
+ * ProducerConfigCreator class provides static method for Kafka config
+ * @author Onur Tokat
+ */
 public class ProducerConfigCreator {
 
     public static Properties getConfig() {

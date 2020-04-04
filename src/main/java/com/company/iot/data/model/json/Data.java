@@ -1,5 +1,9 @@
 package com.company.iot.data.model.json;
 
+/**
+ * Data class is the POJO for JSON raw data
+ * @author Onur Tokat
+ */
 public class Data {
     private String deviceId;
     private int temperature;

@@ -21,10 +21,9 @@ public class JsonGenerator {
                 Instant.now().getEpochSecond()));
         return jsonText;
         */
-        String jsonText = gson.toJson(new Data(deviceList.get(random.nextInt(3)),
+        return gson.toJson(new Data(deviceList.get(random.nextInt(3)),
                 random.nextInt(100),
                 new Location(random.nextLong(), random.nextLong()),
                 Instant.now().getEpochSecond()));
-        return jsonText;
     }
 }

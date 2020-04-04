@@ -1,5 +1,9 @@
 package com.company.iot.data.model.json;
 
+/**
+ * Location class is POJO for JSON raw data
+ * @author Onur Tokat
+ */
 public class Location {
 
     private Long latitude;

@@ -27,6 +27,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 /**
+ * JavaHBaseStreaming class provides spark streaming application
+ * from Kafka topic to HBase table.
  * @author Onur Tokat
  */
 public class JavaHBaseStreaming {
@@ -108,9 +110,9 @@ public class JavaHBaseStreaming {
     }
 
     /**
-     *
-     * @param value
-     * @return
+     *getFormattedDateTime method
+     * @param value long value
+     * @return String of formatted local date time
      */
     private static String getFormattedDateTime(Long value) {
         Instant instant = Instant.ofEpochSecond(value);
