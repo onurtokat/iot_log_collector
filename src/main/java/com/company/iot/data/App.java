@@ -1,8 +1,6 @@
 package com.company.iot.data;
 
 import com.company.iot.data.producer.DataGenerator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * App class is main class of Data generator application
