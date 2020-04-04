@@ -53,7 +53,7 @@ public class JavaHBaseStreaming {
         kafkaParams.put("auto.offset.reset", "latest");
         kafkaParams.put("enable.auto.commit", false);
 
-        Collection<String> topics = Arrays.asList("device1");
+        Collection<String> topics = Collections.singletonList("device1");
 
         try {
             JavaStreamingContext jssc =
@@ -63,10 +63,10 @@ public class JavaHBaseStreaming {
                     KafkaUtils.createDirectStream(
                             jssc,
                             LocationStrategies.PreferConsistent(),
-                            ConsumerStrategies.<String, String>Subscribe(topics, kafkaParams)
+                            ConsumerStrategies.Subscribe(topics, kafkaParams)
                     );
 
-            JavaDStream<String> javaDstream = stream.map(record -> record.value());
+            JavaDStream<String> javaDstream = stream.map(ConsumerRecord::value);
 
             //HBase configuration
             Configuration conf = HBaseConfiguration.create();
@@ -92,7 +92,7 @@ public class JavaHBaseStreaming {
     public static class PutFunction implements Function<String, Put> {
 
         private static final long serialVersionUID = 1L;
-        public Put call(String v) throws Exception {
+        public Put call(String v) {
             Data data = gson.fromJson(v, Data.class);
 
             //composite rowkey with deviceId and time
