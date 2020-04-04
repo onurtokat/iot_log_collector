@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/model/json/Data.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/model/json/Location.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/producer/DataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/FromKafka.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseBulkPutExample.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseExample.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseForeachWriter.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseSink.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseSinkProvider.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/JavaHBaseStreamingBulkPutExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/PageViewStream.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/StreamingApp.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/StreamingApp2.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/Test1.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/TestScala.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/streaming/JavaHBaseStreaming.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/streaming/JavaHBaseStreamingBulkPutExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/test/SparkOnStreamingToHbase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/test/SparkOnStreamingToHbase.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/util/JsonGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/util/ProducerConfigCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../testjava/src/main/java/com/onurtokat/_20200401_1451/model/json/Data.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/hbase-connectors-master/spark/hbase-spark/src/main/java/org/apache/hadoop/hbase/spark/example/hbasecontext/JavaHBaseStreamingBulkPutExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/shc-master/core/src/main/scala/org/apache/spark/sql/execution/datasources/hbase/HBaseSink.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/spark-hbase-connector-examples-master/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/spark-hbase-example-master/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/spark-hbase-example-master/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/spark-streaming-kafka-010-demo-master/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/spark-streaming-kafka-010-demo-master/src/main/scala/com/billymob/spark/streaming/kafka010/demo/SparkStreamingKafkaDemo.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/spark-streaming-kafka-010-demo-master/src/main/scala/com/billymob/spark/streaming/kafka010/demo/Test1.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
