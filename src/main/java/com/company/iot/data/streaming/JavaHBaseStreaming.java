@@ -46,7 +46,7 @@ public class JavaHBaseStreaming {
 
         //Kafka configuration
         Map<String, Object> kafkaParams = new HashMap<>();
-        kafkaParams.put("bootstrap.servers", "10.0.2.15:9092");
+        kafkaParams.put("bootstrap.servers", "localhost:9092");
         kafkaParams.put("key.deserializer", StringDeserializer.class);
         kafkaParams.put("value.deserializer", StringDeserializer.class);
         kafkaParams.put("group.id", "use_a_separate_group_id_for_each_stream");

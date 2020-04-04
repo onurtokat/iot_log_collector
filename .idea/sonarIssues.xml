@@ -78,6 +78,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/ScalaStreamingApp.scala">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/StreamingApp.scala">
           <value>
             <set />
