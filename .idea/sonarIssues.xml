@@ -13,32 +13,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/pom.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/App.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/Test.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/model/json/Data.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/model/json/Location.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/producer/DataGenerator.java">
           <value>
             <set />
           </value>
@@ -63,27 +43,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseSink.scala">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/HBaseSinkProvider.scala">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/JavaHBaseStreamingBulkPutExample.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/PageViewStream.scala">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/spark/ScalaStreamingApp.scala">
           <value>
             <set />
           </value>
@@ -124,16 +89,6 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/test/SparkOnStreamingToHbase.scala">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/util/JsonGenerator.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/util/ProducerConfigCreator.java">
           <value>
             <set />
           </value>

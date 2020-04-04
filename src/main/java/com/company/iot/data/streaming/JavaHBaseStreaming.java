@@ -20,6 +20,8 @@ import org.apache.spark.streaming.kafka010.KafkaUtils;
 import org.apache.spark.streaming.kafka010.LocationStrategies;
 
 import org.apache.hadoop.fs.Path;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
@@ -32,6 +34,8 @@ import java.util.*;
  * @author Onur Tokat
  */
 public class JavaHBaseStreaming {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger("JavaHBaseStreaming");
 
     private static Gson gson = new Gson();
     private static final String TABLE_NAME = "iot";
@@ -84,7 +88,7 @@ public class JavaHBaseStreaming {
             try {
                 jssc.awaitTermination();
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                LOGGER.error("Error occurred when java spark streaming context operation: ",e);
             }
         } finally {
             jsc.stop();
