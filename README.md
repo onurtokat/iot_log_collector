@@ -63,6 +63,8 @@ prefers to use SQL as the query language. Create an Impala table on top of the H
 
 ### Installing
 
+During the first compiling of the project, gives errors which are about that some dependencies could not found. Please see [UPDATED! Solution document](https://github.com/onurtokat/iot_log_collector/blob/master/iot_solution_document.docx) for the details.
+
 Project have two executable parts. First part is Kafka data ingestion application, the other part is Spark data processing application. Both of them have been written by Java.
 
 ```HTML
