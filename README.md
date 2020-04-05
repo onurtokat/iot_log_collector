@@ -78,6 +78,21 @@ export SPARK_KAFKA_VERSION=0.10
 spark-submit --master local --class com.company.iot.data.streaming.JavaHBaseStreaming iot_log_collector-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
+Data Analysis Queries on Impala
+
+1. The maximum temperatures measured for every device
+```HTML
+Select deviceid, max(cast(temperature as int)) from iot group by deviceid;
+```
+2. The amount of data points aggregated for every device
+```HTML
+Select deviceid, count(*) from iot group by deviceid;
+```
+3. The highest temperature measured on a given day for every device
+```HTML
+Select deviceid, from_timestamp(time,’yyyy-MM-dd’) as given_day, max(cast(temperature as int)) from iot group by deviceid,given_day;
+```
+
 ## Running the tests
 
 Test classes can found under src/test/java/com.company.iot.data.util/ directory.
