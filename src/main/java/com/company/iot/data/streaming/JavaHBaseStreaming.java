@@ -59,7 +59,7 @@ public class JavaHBaseStreaming {
         kafkaParams.put("auto.offset.reset", "latest");
         kafkaParams.put("enable.auto.commit", false);
 
-        Collection<String> topics = Collections.singletonList("device1");
+        Collection<String> topics = Arrays.asList("device1");
 
         try {
             JavaStreamingContext jssc =

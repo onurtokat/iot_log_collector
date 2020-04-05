@@ -92,12 +92,6 @@
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
             <version>2.4.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.json4s</groupId>
-                    <artifactId>json4s-jackson_2.11</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
         <dependency>
@@ -127,20 +121,6 @@
             <version>2.0.0-alpha4</version>
         </dependency>
         -->
-        <!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-common -->
-        <dependency>
-            <groupId>org.apache.hbase</groupId>
-            <artifactId>hbase-common</artifactId>
-            <version>2.2.4</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-client -->
-        <dependency>
-            <groupId>org.apache.hbase</groupId>
-            <artifactId>hbase-client</artifactId>
-            <version>2.2.4</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.hbase.connectors.spark/hbase-spark -->
         <dependency>
             <groupId>org.apache.hbase.connectors.spark</groupId>
@@ -154,25 +134,11 @@
             <artifactId>scala-library</artifactId>
             <version>2.11.12</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.hortonworks.shc/shc-core -->
-        <dependency>
-            <groupId>com.hortonworks.shc</groupId>
-            <artifactId>shc-core</artifactId>
-            <version>1.1.0.3.1.5.6-1</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.11</artifactId>
             <version>2.4.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.json4s</groupId>
-            <artifactId>json4s-jackson_2.11</artifactId>
-            <version>3.2.11</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

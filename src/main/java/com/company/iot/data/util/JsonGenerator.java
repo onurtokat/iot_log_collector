@@ -18,9 +18,10 @@ public class JsonGenerator {
             "ff6e0f54-3c31-4085-8e03-1a4067dc2f05");
 
     public static String generate() {
-        return gson.toJson(new Data(deviceList.get(random.nextInt(3)),
-                random.nextInt(100),
-                new Location(random.nextLong(), random.nextLong()),
+        String jsonText = gson.toJson(new Data(deviceList.get(random.nextInt(3)), random
+                .nextInt(100), new Location(
+                Long.valueOf(random.nextLong()), Long.valueOf(random.nextLong())),
                 Instant.now().getEpochSecond()));
+        return jsonText;
     }
 }
