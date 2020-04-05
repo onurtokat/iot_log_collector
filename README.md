@@ -1,4 +1,4 @@
-# Place Population Calculation with Radius(km)
+# IoT Log Collector
 
 Project purpose is to create data ingestion, data processing and data analysis stages for iot data which is coming from three iot devices. 
 
@@ -23,7 +23,7 @@ This project have requirements:
   }
   ```
   The properties are defined in the following way
-  ```HTML
+
 Property name | Data type | Comment
 --- | --- | ---
 deviceId | UUID | The unique ID of the device sending the data.
@@ -31,7 +31,7 @@ temperature | Integer | The temperature measured by the device.
 latitude | Long | The latitude of the position of the device.
 longitude | Long | The longitude of the position of the device.
 time | Timestamp | The time of the signal as a Unix timestamp.
-```
+
 The simulator should simulate three different devices and needs to send a signal to Apache Kafka every
 second. Implement the simulator as a long running service and create Kafka topic(s) as needed.
 
