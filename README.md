@@ -50,9 +50,9 @@ After the data is stored in HBase it needs to be analyzed. The data analyst resp
 prefers to use SQL as the query language. Create an Impala table on top of the HBase table created in task
 #2. Also, document queries for the following use cases:
 
-1. The maximum temperatures measured for every device.
-2. The amount of data points aggregated for every device.
-3. The highest temperature measured on a given day for every device.
+1. The maximum temperatures measured for every device
+2. The amount of data points aggregated for every device
+3. The highest temperature measured on a given day for every device
 
 ### Prerequisites
 
