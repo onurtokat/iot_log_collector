@@ -1,6 +1,6 @@
 # IoT Log Collector
 
-Project purpose is to create data ingestion, data processing and data analysis stages for iot data which is coming from three iot devices. 
+Project purpose is to create data ingestion, data processing and data analysis stages for iot data which comes from three iot devices. 
 
 ## Getting Started
 
@@ -47,8 +47,7 @@ implement the Spark Streaming job.
 ● Task #3: Data Analysis
 
 After the data is stored in HBase it needs to be analyzed. The data analyst responsible for the analysis
-prefers to use SQL as the query language. Create an Impala table on top of the HBase table created in task
-#2. Also, document queries for the following use cases:
+prefers to use SQL as the query language. Create an Impala table on top of the HBase table created in task2. Also, document queries for the following use cases:
 
 1. The maximum temperatures measured for every device
 2. The amount of data points aggregated for every device
@@ -64,7 +63,7 @@ prefers to use SQL as the query language. Create an Impala table on top of the H
 
 ### Installing
 
-Project have two executable parts. First part is Kafka data ingestion application, rest of part is Spark data processing application. Both of them have been written by Java.
+Project have two executable parts. First part is Kafka data ingestion application, the other part is Spark data processing application. Both of them have been written by Java.
 
 ```HTML
 java -cp iot_log_collector-1.0-SNAPSHOT-jar-with-dependencies.jar com.company.iot.data.App
@@ -91,6 +90,7 @@ Select deviceid, count(*) from iot group by deviceid;
 3. The highest temperature measured on a given day for every device
 ```HTML
 Select deviceid, from_timestamp(time,’yyyy-MM-dd’) as given_day, max(cast(temperature as int)) from iot group by deviceid,given_day;
+select deviceid,max(cast(temperature as int)) from iot where time like '2020-04-04%' group by deviceid;
 ```
 
 ## Running the tests
@@ -103,12 +103,12 @@ ProducerConfigCreatorTest.class
 ```
 ### Break down into end to end tests
 
-<li>JsonGenerator generate method correctness hase been checked (Valid JSON format)</li>
+<li>JsonGenerator generate method correctness has been checked (Valid JSON format)</li>
 <li>Kafka Producer Config generation correctness has been checked</li>  
 
 ## Deployment
 
- This project can be ran as JAR in the;
+ This project can be run as JAR in the;
  
  <li>Locally for testing</li>
  <li>On a server</li>
