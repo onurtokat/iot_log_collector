@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/App.java">
           <value>
             <set />
@@ -93,12 +98,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/util/JsonGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/company/iot/data/util/ProducerConfigCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/company/iot/data/streaming/JavaHBaseStreamingTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/company/iot/data/util/JsonGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/company/iot/data/util/ProducerConfigCreatorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../testjava/src/main/java/com/onurtokat/_20200401_1451/model/json/Data.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="D:/projects/hbase-connectors-master/spark/hbase-spark/src/main/java/org/apache/hadoop/hbase/spark/example/hbasecontext/JavaHBaseStreamingBulkPutExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/projects/hbase-spark-master/pom.xml">
           <value>
             <set />
           </value>
