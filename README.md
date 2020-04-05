@@ -73,6 +73,12 @@ Before the running Spark application (spark-submit), SPARK_KAFKA_VERSION variabl
 ```HTML
 export SPARK_KAFKA_VERSION=0.10
 ```
+
+HBase table created as below
+```HTML
+create 'iot','rawdata','data'
+```
+
 ```HTML
 spark-submit --master local --class com.company.iot.data.streaming.JavaHBaseStreaming iot_log_collector-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
