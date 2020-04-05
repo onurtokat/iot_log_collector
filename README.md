@@ -1,6 +1,6 @@
 # IoT Log Collector
 
-Project purpose is to create data ingestion, data processing and data analysis stages for iot data which comes from three iot devices. [Solution document](https://github.com/onurtokat/iot_log_collector/blob/master/iot_solution_document.docx) has been added to project directory.
+Project purpose is to create data ingestion, data processing and data analysis stages for iot data which comes from three iot devices. [UPDATED! Solution document](https://github.com/onurtokat/iot_log_collector/blob/master/iot_solution_document.docx) has been added to project directory.
 
 ## Getting Started
 
