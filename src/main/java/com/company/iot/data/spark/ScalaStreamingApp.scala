@@ -13,6 +13,7 @@ import org.apache.spark.sql.types.{IntegerType, LongType, StringType, StructFiel
  *         using SparkSession object for using SparkSQL API.
  *         Hortonworks shc API is used as HBase connector.
  *         //FIXME current API have bug which is java.lang.NoSuchMethodError: org.json4s.jackson.JsonMethods$.parse
+ *         //FIXME DO NOT RUN THIS CLASS! IT IS JUST TESTING PURPOSE
  */
 object ScalaStreamingApp {
   def main(args: Array[String]): Unit = {
